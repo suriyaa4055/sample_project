@@ -109,7 +109,7 @@ func Hello(w http.ResponseWriter, r *http.Request) {
 	var response model.Response
 
 	response.Status = 200
-	response.Message = "Hi User now can look at books using /books endpoint"
+	response.Message = "Hi User now can look at books using /books endpoint just updated on 5/16/23"
 	fmt.Print("table created in database")
 
 	w.Header().Set("Content-Type", "application/json")
